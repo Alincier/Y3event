@@ -1,7 +1,17 @@
-
+https://blog.csdn.net/qq_29493173/article/details/113094143
 https://blog.csdn.net/weixin_45309916/article/details/108273988
-克隆远程仓库
-git clone github的url
+https://blog.csdn.net/weixin_43654123/article/details/124039969#:~:text=%E9%97%AE%E9%A2%98%EF%BC%9Agit%20push%E6%97%B6%EF%BC%8C%E5%87%BA%E7%8E%B0fatal:
+
+初始化：本地建库（即文件夹），git init
+添加到仓库：代码文件放入本地库，git add .
+提交： git commit -m “注释内容”，提交到仓库
+新建远程仓库并关联：在Github上设置好SSH密钥后，新建一个远程仓库， git remote add origin https://github.com/Alincier/Y3event.git关联
+推送：git push (-u) origin master，把本地仓库的代码推送到远程仓库Github上
+————————————————
+
+                            版权声明：本文为博主原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接和本声明。
+                        
+原文链接：https://blog.csdn.net/qq_29493173/article/details/113094143
 
 上传
 cd 远程仓库名
@@ -16,5 +26,5 @@ git push
 cd Y3event
 git init
 git add .
-git commit -m "new update"20:08 2024/8/23
-git push
+git commit -m "new update"
+git push origin master
