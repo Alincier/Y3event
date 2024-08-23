@@ -1,0 +1,34 @@
+[
+ {
+  "__tuple__": true, 
+  "items": [
+   9999, 
+   "\u521d\u59cb\u955c\u5934", 
+   32768
+  ]
+ }, 
+ {
+  "name": "\u73a9\u5bb6\u89d2\u8272", 
+  "key": "MNQZeV36Ee+GmKc5IMp-LQ", 
+  "group": [
+   {
+    "__tuple__": true, 
+    "items": [
+     1, 
+     "\u732b\u732b", 
+     1
+    ]
+   }
+  ], 
+  "btn_visible": false, 
+  "btn_lock": false
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   1, 
+   "\u90fd\u5e02\u767d\u8272\u6df7\u51dd\u571f\u5546\u5e97", 
+   16384
+  ]
+ }
+]

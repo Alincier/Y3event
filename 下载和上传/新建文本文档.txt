@@ -1,0 +1,20 @@
+
+https://blog.csdn.net/weixin_45309916/article/details/108273988
+克隆远程仓库
+git clone github的url
+
+上传
+cd 远程仓库名
+git init
+git add .
+git commit -m "提交信息"
+git push
+
+
+
+
+cd Y3event
+git init
+git add .
+git commit -m "new update"20:08 2024/8/23
+git push
