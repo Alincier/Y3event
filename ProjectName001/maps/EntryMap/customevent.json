@@ -1,4 +1,19 @@
 {
-    "conf": {}, 
-    "group_info": []
+    "conf": {
+        "2028020603": [
+            [
+                "\u9ed8\u8ba4\u53c2\u6570\u540d\u79f0", 
+                100003
+            ]
+        ]
+    }, 
+    "group_info": [
+        {
+            "__tuple__": true, 
+            "items": [
+                2028020603, 
+                "\u65b0\u5efa\u4e8b\u4ef6"
+            ]
+        }
+    ]
 }
