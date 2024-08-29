@@ -1,0 +1,109 @@
+{
+    "action": [
+        [
+            5173207260014, 
+            "单位可以闪避进入该区域，在进入关卡 3 时打断移动者以避免摄像机偏移", 
+            517320726, 
+            "action_type"
+        ], 
+        {
+            "action_type": "BREAK_UNIT_MOVER", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [], 
+                    "sub_type": "GET_UNIT_FROM_EVENT"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 5173207260011, 
+            "enable": true
+        }, 
+        [
+            5173207260015, 
+            "只有玩家单位，移动到关卡 3 区域不需要额外判断", 
+            517320726, 
+            "action_type"
+        ], 
+        [
+            1051648927, 
+            "如果有其他单位，需要额外判断", 
+            517320726, 
+            "action_type"
+        ], 
+        {
+            "action_type": "FORCE_TRANSMIT_UNIT", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [], 
+                    "sub_type": "GET_UNIT_FROM_EVENT"
+                }, 
+                {
+                    "arg_type": 100004, 
+                    "args_list": [
+                        1000000010
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 5173207260007, 
+            "enable": true, 
+            "op_arg": [
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        [
+            5173207260013, 
+            "进入清空区后，单位将转移到关卡 3", 
+            517320726, 
+            "event_type"
+        ], 
+        {
+            "args_list": [
+                {
+                    "arg_type": 100044, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100009, 
+                    "args_list": [
+                        1000000005
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 5173207260004, 
+            "enable": true, 
+            "event_type": "UNIT_ANY_REGION_EVENT"
+        }
+    ], 
+    "group_id": "x2uk4eGVEeyIhKS7bULSKA", 
+    "p_trigger_id": null, 
+    "trigger_id": 517320726, 
+    "trigger_name": "Level3", 
+    "valid": true, 
+    "var_data": [
+        {}, 
+        {}, 
+        []
+    ]
+}

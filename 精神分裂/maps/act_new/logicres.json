@@ -1,0 +1,324 @@
+{
+    "1024": {
+        "1000000000": {
+            "id": 1000000000, 
+            "name": "Point", 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -6, 
+                        858993459
+                    ], 
+                    [
+                        -2, 
+                        34357248
+                    ], 
+                    [
+                        28, 
+                        0
+                    ]
+                ]
+            }, 
+            "type": 1024
+        }, 
+        "1000000001": {
+            "id": 1000000001, 
+            "name": "Point_2", 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -6, 
+                        858993459
+                    ], 
+                    [
+                        -2, 
+                        34357248
+                    ], 
+                    [
+                        32, 
+                        0
+                    ]
+                ]
+            }, 
+            "type": 1024
+        }, 
+        "1000000002": {
+            "id": 1000000002, 
+            "name": "Point_3", 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -6, 
+                        858993459
+                    ], 
+                    [
+                        -4, 
+                        51535872
+                    ], 
+                    [
+                        36, 
+                        0
+                    ]
+                ]
+            }, 
+            "type": 1024
+        }, 
+        "1000000009": {
+            "id": 1000000009, 
+            "name": "Point_4", 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        21, 
+                        3239337984
+                    ], 
+                    [
+                        0, 
+                        0
+                    ], 
+                    [
+                        -16, 
+                        58826752
+                    ]
+                ]
+            }, 
+            "type": 1024
+        }, 
+        "1000000010": {
+            "id": 1000000010, 
+            "name": "Point_5", 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        21, 
+                        3179225088
+                    ], 
+                    [
+                        0, 
+                        0
+                    ], 
+                    [
+                        -7, 
+                        805863424
+                    ]
+                ]
+            }, 
+            "type": 1024
+        }
+    }, 
+    "2048": {
+        "1000000003": {
+            "color": null, 
+            "height": {
+                "__tuple__": true, 
+                "items": [
+                    28, 
+                    168927232
+                ]
+            }, 
+            "id": 1000000003, 
+            "name": "Level1", 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -36, 
+                        3636887552
+                    ], 
+                    [
+                        0, 
+                        0
+                    ], 
+                    [
+                        -20, 
+                        469430272
+                    ]
+                ]
+            }, 
+            "sound": null, 
+            "type": 2048, 
+            "weather": 7, 
+            "width": {
+                "__tuple__": true, 
+                "items": [
+                    22, 
+                    856899584
+                ]
+            }
+        }, 
+        "1000000004": {
+            "color": null, 
+            "height": {
+                "__tuple__": true, 
+                "items": [
+                    1, 
+                    3153739776
+                ]
+            }, 
+            "id": 1000000004, 
+            "name": "Level2_initialZone", 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -3, 
+                        1151074816
+                    ], 
+                    [
+                        0, 
+                        0
+                    ], 
+                    [
+                        42, 
+                        2692538368
+                    ]
+                ]
+            }, 
+            "sound": null, 
+            "type": 2048, 
+            "weather": 0, 
+            "width": {
+                "__tuple__": true, 
+                "items": [
+                    5, 
+                    791200768
+                ]
+            }
+        }, 
+        "1000000005": {
+            "color": null, 
+            "height": {
+                "__tuple__": true, 
+                "items": [
+                    1, 
+                    2228977664
+                ]
+            }, 
+            "id": 1000000005, 
+            "name": "Level2_finalZone", 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -2, 
+                        3191715456
+                    ], 
+                    [
+                        0, 
+                        1114968064
+                    ], 
+                    [
+                        23, 
+                        2579529728
+                    ]
+                ]
+            }, 
+            "sound": null, 
+            "type": 2048, 
+            "weather": 0, 
+            "width": {
+                "__tuple__": true, 
+                "items": [
+                    2, 
+                    892584192
+                ]
+            }
+        }, 
+        "1000000012": {
+            "color": null, 
+            "height": {
+                "__tuple__": true, 
+                "items": [
+                    -22, 
+                    2756870144
+                ]
+            }, 
+            "id": 1000000012, 
+            "name": "rectangleZone", 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        12, 
+                        3861385216
+                    ], 
+                    [
+                        -1, 
+                        4294963200
+                    ], 
+                    [
+                        -1, 
+                        3816931328
+                    ]
+                ]
+            }, 
+            "sound": null, 
+            "type": 2048, 
+            "weather": 0, 
+            "width": {
+                "__tuple__": true, 
+                "items": [
+                    19, 
+                    1794744320
+                ]
+            }
+        }
+    }, 
+    "4096": {}, 
+    "8192": {}, 
+    "32768": {
+        "999999999": {
+            "camera_dist": 26.0000010723155, 
+            "far": 1000.0, 
+            "focus_max_dist": 400.0, 
+            "focus_min_dist": 10.0, 
+            "focus_x": -23.980825424194336, 
+            "focus_y": 0.0, 
+            "focus_z": -9.929924964904785, 
+            "fov": 35.0, 
+            "fov_disabled": true, 
+            "id": 999999999, 
+            "is_origin_cam": true, 
+            "is_ortho": false, 
+            "name": "\u521d\u59cb\u955c\u5934", 
+            "ortho_scale": 1, 
+            "pitch": 0.7853981633974483, 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "roll": 0.0, 
+            "set_camera_conf_realtime": false, 
+            "type": 32768, 
+            "yaw": 6.283185307179586
+        }
+    }, 
+    "65536": {}, 
+    "131072": {}, 
+    "262144": {}, 
+    "1048576": {}, 
+    "2097152": {}, 
+    "4194304": {}, 
+    "134217728": {}
+}

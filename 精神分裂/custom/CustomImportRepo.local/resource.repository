@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Repository>
+<Items>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>0e8ed94e-f7a5-4504-81c9-3c86b500f993</GUID><Package>ui</Package><Class>Texture2D</Class><Name>harmtext_crit_heal</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>19467b6f-18bb-4be0-b149-67fc8a59ff9a</GUID><Package>ui</Package><Class>Texture2D</Class><Name>harmtext_crit_get_gold</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>1f356398-b12e-4c56-89d6-50b5610abf66</GUID><Package>ui</Package><Class>Texture2D</Class><Name>harmtext_normal_magic</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>4840410d-f9ab-4c3b-a6b2-e0c3b72dd895</GUID><Package>ui</Package><Class>Texture2D</Class><Name>ss_independ_billboard_batch_ui_ACT0</Name><Annotation><SourcePath>E:/kk_.3933706/temp.png</SourcePath><CreationTime>1724898000</CreationTime><MD5>e9fb1263d250cfc29dd97f4026e24688</MD5></Annotation></Item>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>7e5c6d45-1a97-4467-a597-f581bc06b96f</GUID><Package>ui</Package><Class>Texture2D</Class><Name>harmtext_normal_get_gold</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>7e779ecc-007d-44b3-9e8c-5bb5222b7319</GUID><Package>ui</Package><Class>Texture2D</Class><Name>harmtext_crit_physics</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>8cd3d668-6e6e-4da2-ac3e-6c187626b7bd</GUID><Package>ui</Package><Class>Texture2D</Class><Name>harmtext_crit_real</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>b681feb8-7564-4d67-8190-dffa72f4758a</GUID><Package>ui</Package><Class>Texture2D</Class><Name>harmtext_normal_physics</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>c5278c5e-b606-4fff-a9de-72ba61413dd6</GUID><Package>ui</Package><Class>Texture2D</Class><Name>harmtext_normal_heal</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>cf581c88-c76e-474e-ae57-e9829e51eeff</GUID><Package>ui</Package><Class>Texture2D</Class><Name>harmtext_normal_real</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>Texture</Type><Flags>256</Flags><GUID>eed89cc1-bb88-4c95-bd7d-9bc944cdc682</GUID><Package>ui</Package><Class>Texture2D</Class><Name>harmtext_crit_magic</Name><Annotation><SourcePath/><CreationTime>0</CreationTime></Annotation></Item>
+</Items>
+</Repository>

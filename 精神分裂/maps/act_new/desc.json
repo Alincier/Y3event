@@ -1,0 +1,11 @@
+{
+    "desc": "a map", 
+    "encrypt_sections": [
+        "table_data"
+    ], 
+    "group_name": "", 
+    "is_neox_map": false, 
+    "name": "ACT", 
+    "publish_name": "", 
+    "theme": 1
+}
