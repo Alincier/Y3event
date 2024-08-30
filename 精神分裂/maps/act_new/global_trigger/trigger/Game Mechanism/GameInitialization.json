@@ -1,6 +1,47 @@
 {
     "action": [
         [
+            1186888675, 
+            "甜心列表初始化", 
+            1487040513, 
+            "action_type"
+        ], 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100028, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_NAME", 
+                                "甜心列表"
+                            ]
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100116, 
+                    "args_list": [
+                        134258647
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1487040513827628, 
+            "enable": true
+        }, 
+        [
             14870405130039, 
             "遍历所有玩家判断", 
             1487040513, 
@@ -144,6 +185,92 @@
                                 {
                                     "arg_type": 100022, 
                                     "args_list": [
+                                        {
+                                            "action_type": "PLAY_SOUND_FOR_PLAYER", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "INTEGER", 
+                                                                        "Player ID", 
+                                                                        "local"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 6
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_ROLE_BY_INT"
+                                                }, 
+                                                null, 
+                                                {
+                                                    "arg_type": 100001, 
+                                                    "args_list": [
+                                                        true
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 1487040513827649, 
+                                            "enable": true, 
+                                            "op_arg": [
+                                                null, 
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false, 
+                                                false
+                                            ]
+                                        }, 
+                                        {
+                                            "action_type": "SET_UI_COMP_VISIBLE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "INTEGER", 
+                                                                        "Player ID", 
+                                                                        "local"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 6
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_ROLE_BY_INT"
+                                                }, 
+                                                {
+                                                    "arg_type": 100001, 
+                                                    "args_list": [
+                                                        true
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100070, 
+                                                    "args_list": [
+                                                        "7cb0f4bb-5d7f-40e2-8acb-c57a91299a17"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 1487040513827635, 
+                                            "enable": false
+                                        }, 
                                         [
                                             14870405130035, 
                                             "创建玩家单位", 
@@ -186,9 +313,22 @@
                                                         {
                                                             "arg_type": 100116, 
                                                             "args_list": [
-                                                                134258647
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "UNIT_NAME", 
+                                                                        "甜心列表"
+                                                                    ]
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100002, 
+                                                                    "args_list": [
+                                                                        1
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }
                                                             ], 
-                                                            "sub_type": 1
+                                                            "sub_type": 2
                                                         }, 
                                                         {
                                                             "arg_type": 100004, 
@@ -704,19 +844,23 @@
     "p_trigger_id": null, 
     "trigger_id": 1487040513, 
     "trigger_name": "GameInitialization", 
-    "valid": true, 
+    "valid": false, 
     "var_data": [
         {
             "INTEGER": {
-                "Player ID": 0
+                "Player ID": 0, 
+                "index": 0
             }, 
+            "NEW_TIMER": {}, 
             "UNIT_ENTITY": {}
         }, 
         {
-            "Player ID": 0
+            "Player ID": 0, 
+            "index": 0
         }, 
         [
-            "Player ID"
+            "Player ID", 
+            "index"
         ]
     ]
 }

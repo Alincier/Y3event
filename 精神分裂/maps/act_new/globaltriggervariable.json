@@ -7,6 +7,9 @@
         "NEW_TIMER": {}, 
         "UNIT_ENTITY": {
             "Player Unit": 0
+        }, 
+        "UNIT_NAME": {
+            "\u751c\u5fc3\u5217\u8868": 0
         }
     }, 
     "variable_group_info": [
@@ -23,10 +26,18 @@
                 "Left", 
                 "(Left)"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u751c\u5fc3\u5217\u8868", 
+                "\u751c\u5fc3\u5217\u8868"
+            ]
         }
     ], 
     "variable_length_dict": {
         "Left": 0, 
-        "Player Unit": 10
+        "Player Unit": 10, 
+        "\u751c\u5fc3\u5217\u8868": 10
     }
 }
