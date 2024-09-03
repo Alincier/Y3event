@@ -21,7 +21,7 @@
     "ability_cost": {
         "__tuple__": true, 
         "items": [
-            "0.0"
+            "250.0"
         ]
     }, 
     "ability_damage": {
@@ -112,7 +112,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            "0.0"
+            "2.0"
         ]
     }, 
     "collection_animation": "", 

@@ -171,6 +171,114 @@
                             "element_id": 340869240026, 
                             "enable": true
                         }, 
+                        {
+                            "action_type": "ADD_STATE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [
+                                        [
+                                            "UNIT_ENTITY", 
+                                            "Player Unit"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                [
+                                                    "INTEGER", 
+                                                    "Player ID", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": 11
+                                }, 
+                                {
+                                    "arg_type": 100075, 
+                                    "args_list": [
+                                        524288
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 34086924919605, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "ADD_STATE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [
+                                        [
+                                            "UNIT_ENTITY", 
+                                            "Player Unit"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                [
+                                                    "INTEGER", 
+                                                    "Player ID", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": 11
+                                }, 
+                                {
+                                    "arg_type": 100075, 
+                                    "args_list": [
+                                        256
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 34086924919616, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "ADD_STATE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [
+                                        [
+                                            "UNIT_ENTITY", 
+                                            "Player Unit"
+                                        ], 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                [
+                                                    "INTEGER", 
+                                                    "Player ID", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "sub_type": 11
+                                }, 
+                                {
+                                    "arg_type": 100075, 
+                                    "args_list": [
+                                        32768
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 34086924919714, 
+                            "enable": true
+                        }, 
                         [
                             2092631941, 
                             "躲避时播放的动画", 
@@ -204,14 +312,14 @@
                                 {
                                     "arg_type": 100003, 
                                     "args_list": [
-                                        "ability_4loop"
+                                        "run_spup_start"
                                     ], 
                                     "sub_type": 1
                                 }, 
                                 {
                                     "arg_type": 100000, 
                                     "args_list": [
-                                        1.0
+                                        2.0
                                     ], 
                                     "sub_type": 1
                                 }, 
@@ -414,7 +522,7 @@
                                 {
                                     "arg_type": 100000, 
                                     "args_list": [
-                                        600.0
+                                        400.0
                                     ], 
                                     "sub_type": 1
                                 }, 
@@ -446,7 +554,7 @@
                                     "arg_type": 100022, 
                                     "args_list": [
                                         [
-                                            340869240048, 
+                                            2105168070, 
                                             "移动结束，解除无敌状态，停止播放动画", 
                                             34086924, 
                                             "action_type"
@@ -484,7 +592,115 @@
                                                 }
                                             ], 
                                             "bp": false, 
-                                            "element_id": 340869240005, 
+                                            "element_id": 34086924919688, 
+                                            "enable": true
+                                        }, 
+                                        {
+                                            "action_type": "REMOVE_STATE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [
+                                                        [
+                                                            "UNIT_ENTITY", 
+                                                            "Player Unit"
+                                                        ], 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                [
+                                                                    "INTEGER", 
+                                                                    "Player ID", 
+                                                                    "local"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": 6
+                                                        }
+                                                    ], 
+                                                    "sub_type": 11
+                                                }, 
+                                                {
+                                                    "arg_type": 100075, 
+                                                    "args_list": [
+                                                        524288
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 34086924919689, 
+                                            "enable": true
+                                        }, 
+                                        {
+                                            "action_type": "REMOVE_STATE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [
+                                                        [
+                                                            "UNIT_ENTITY", 
+                                                            "Player Unit"
+                                                        ], 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                [
+                                                                    "INTEGER", 
+                                                                    "Player ID", 
+                                                                    "local"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": 6
+                                                        }
+                                                    ], 
+                                                    "sub_type": 11
+                                                }, 
+                                                {
+                                                    "arg_type": 100075, 
+                                                    "args_list": [
+                                                        256
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 34086924919690, 
+                                            "enable": true
+                                        }, 
+                                        {
+                                            "action_type": "REMOVE_STATE", 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [
+                                                        [
+                                                            "UNIT_ENTITY", 
+                                                            "Player Unit"
+                                                        ], 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                [
+                                                                    "INTEGER", 
+                                                                    "Player ID", 
+                                                                    "local"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": 6
+                                                        }
+                                                    ], 
+                                                    "sub_type": 11
+                                                }, 
+                                                {
+                                                    "arg_type": 100075, 
+                                                    "args_list": [
+                                                        32768
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "bp": false, 
+                                            "element_id": 34086924919725, 
                                             "enable": true
                                         }, 
                                         {
@@ -513,7 +729,7 @@
                                                 }
                                             ], 
                                             "bp": false, 
-                                            "element_id": 34086924240055, 
+                                            "element_id": 34086924919691, 
                                             "enable": true
                                         }, 
                                         {
@@ -543,13 +759,13 @@
                                                 {
                                                     "arg_type": 100003, 
                                                     "args_list": [
-                                                        "ability_4loop"
+                                                        "run_spup_start"
                                                     ], 
                                                     "sub_type": 1
                                                 }
                                             ], 
                                             "bp": false, 
-                                            "element_id": 340869240006, 
+                                            "element_id": 34086924919692, 
                                             "enable": true
                                         }
                                     ], 
@@ -559,7 +775,7 @@
                                     "arg_type": 100022, 
                                     "args_list": [
                                         [
-                                            340869240049, 
+                                            1748406837, 
                                             "撞击地形时移除移动器以防止穿过墙壁", 
                                             34086924, 
                                             "action_type"
@@ -590,7 +806,7 @@
                                                 }
                                             ], 
                                             "bp": false, 
-                                            "element_id": 340869240007, 
+                                            "element_id": 34086924919693, 
                                             "enable": true
                                         }
                                     ], 
@@ -682,15 +898,9 @@
                                 {
                                     "arg_type": 100003, 
                                     "args_list": [
-                                        {
-                                            "arg_type": 100003, 
-                                            "args_list": [
-                                                "%skill_cost_tips"
-                                            ], 
-                                            "sub_type": 1
-                                        }
+                                        "能量不足以闪避！"
                                     ], 
-                                    "sub_type": "GET_TEXT_CONFIG"
+                                    "sub_type": 1
                                 }, 
                                 {
                                     "arg_type": 100000, 

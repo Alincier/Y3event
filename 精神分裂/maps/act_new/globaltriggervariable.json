@@ -1,10 +1,18 @@
 {
     "variable_dict": {
         "BOOLEAN": {}, 
+        "FLOAT": {}, 
         "INTEGER": {
             "Left": 0
         }, 
-        "NEW_TIMER": {}, 
+        "NEW_TIMER": {
+            "\u72b6\u6001\u68c0\u9a8c\u8ba1\u65f6\u5668": -1
+        }, 
+        "UI_COMP": {
+            "\u72b6\u6001\u754c\u9762\u63a7\u4ef6": "", 
+            "\u72b6\u6001\u9009\u6846\u63a7\u4ef6": "", 
+            "\u72b6\u6001\u9009\u6846\u63a7\u4ef6_2": ""
+        }, 
         "UNIT_ENTITY": {
             "Player Unit": 0
         }, 
@@ -33,11 +41,43 @@
                 "\u751c\u5fc3\u5217\u8868", 
                 "\u751c\u5fc3\u5217\u8868"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u72b6\u6001\u754c\u9762\u63a7\u4ef6", 
+                "\u72b6\u6001\u754c\u9762\u63a7\u4ef6"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u72b6\u6001\u9009\u6846\u63a7\u4ef6", 
+                "\u72b6\u6001\u9009\u6846\u63a7\u4ef6"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u72b6\u6001\u9009\u6846\u63a7\u4ef6_2", 
+                "\u72b6\u6001\u9009\u6846\u63a7\u4ef6_2"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u72b6\u6001\u68c0\u9a8c\u8ba1\u65f6\u5668", 
+                "\u72b6\u6001\u68c0\u9a8c\u8ba1\u65f6\u5668"
+            ]
         }
     ], 
     "variable_length_dict": {
         "Left": 0, 
         "Player Unit": 10, 
+        "\u72b6\u6001\u68c0\u9a8c\u8ba1\u65f6\u5668": 10, 
+        "\u72b6\u6001\u754c\u9762\u63a7\u4ef6": 10, 
+        "\u72b6\u6001\u9009\u6846\u63a7\u4ef6": 10, 
+        "\u72b6\u6001\u9009\u6846\u63a7\u4ef6_2": 10, 
         "\u751c\u5fc3\u5217\u8868": 10
     }
 }

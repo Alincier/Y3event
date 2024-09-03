@@ -7,6 +7,7 @@
             "10000"
         ]
     }, 
+    "ability_build_subtype": 1, 
     "ability_bw_point": 0.5, 
     "ability_cast_point": 0.0, 
     "ability_cast_range": {
@@ -140,9 +141,11 @@
         "items": []
     }, 
     "filter_condition_camp": 5, 
+    "filter_condition_move_channel_type": 99, 
     "filter_condition_type": 7, 
     "filter_item_tags": [], 
     "filter_unit_tags": [], 
+    "forbid_unit_tags": [], 
     "hit_sfx_list": {
         "__tuple__": true, 
         "items": []

@@ -2,11 +2,69 @@
  {
   "name": "code_ui_custom_panel_tree", 
   "key": 2147483647, 
-  "group": []
+  "group": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "GUD", 
+     "GUD"
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     "panel_1", 
+     "Guide"
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     "3721d4c9-9dd0-4cab-88cc-e56d249f5c7a", 
+     "panel_1"
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     "6ae3c780-90e2-4a7a-8f74-ef9e2c346393", 
+     "panel_1"
+    ]
+   }
+  ]
  }, 
  {
   "name": "code_ui_preset_panel_tree", 
   "key": 2147483646, 
-  "group": []
+  "group": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "LoadingPanel", 
+     "LoadingPanel"
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     "f09f15f5-e2d0-441e-be6f-325a88472a01", 
+     "LogoPanel"
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     "loss", 
+     "loss"
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     "win", 
+     "win"
+    ]
+   }
+  ]
  }
 ]

@@ -11,7 +11,7 @@
     "max_dist": 1000, 
     "min_dist": 0, 
     "name": -73964290, 
-    "priority": 0, 
+    "priority": 11.0, 
     "sound_id": 1, 
     "sound_id_list": [
         {
@@ -26,7 +26,7 @@
         "items": []
     }, 
     "total_time": 0.417361111111, 
-    "type": 1, 
+    "type": 0, 
     "uid": "134233430", 
     "volume": 100
 }

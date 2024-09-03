@@ -2,7 +2,29 @@
  {
   "name": "code_ui_custom_panel_tree", 
   "key": 2147483647, 
-  "group": []
+  "group": [
+   {
+    "__tuple__": true, 
+    "items": [
+     "15ec4017-f1bb-486d-89fc-4ad730ab9a5f", 
+     "\u65b0\u5efa\u81ea\u5b9a\u4e49\u6a21\u5757"
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     "38f43d90-6c40-48ed-9352-d64bc12fa886", 
+     "\u65b0\u5efa\u81ea\u5b9a\u4e49\u6a21\u5757"
+    ]
+   }, 
+   {
+    "__tuple__": true, 
+    "items": [
+     "5f1fd344-9c08-4ca4-852b-7a84ee9fd95b", 
+     "\u4eba\u7269\u6846"
+    ]
+   }
+  ]
  }, 
  {
   "name": "code_ui_preset_panel_tree", 

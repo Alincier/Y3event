@@ -89,7 +89,7 @@
                         {
                             "arg_type": 100066, 
                             "args_list": [
-                                104138
+                                102882
                             ], 
                             "sub_type": 1
                         }, 
@@ -414,6 +414,26 @@
                             "arg_type": 100022, 
                             "args_list": [
                                 {
+                                    "action_type": "ADD_CUR_MP", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "ABILITY_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                25.0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 850415619980969, 
+                                    "enable": true
+                                }, 
+                                {
                                     "action_type": "APPLY_DAMAGE", 
                                     "args_list": [
                                         {
@@ -541,7 +561,7 @@
                                         {
                                             "arg_type": 100066, 
                                             "args_list": [
-                                                102288
+                                                100808
                                             ], 
                                             "sub_type": 1
                                         }, 
@@ -664,14 +684,7 @@
                                         }, 
                                         {
                                             "arg_type": 100022, 
-                                            "args_list": [
-                                                [
-                                                    1130980964, 
-                                                    "\u79fb\u52a8\u7ed3\u675f\uff0c\u89e3\u9664\u65e0\u654c\u72b6\u6001\uff0c\u505c\u6b62\u64ad\u653e\u52a8\u753b", 
-                                                    850415619, 
-                                                    "action_type"
-                                                ]
-                                            ], 
+                                            "args_list": [], 
                                             "sub_type": 1
                                         }, 
                                         {
@@ -774,26 +787,6 @@
                     ], 
                     "bp": false, 
                     "element_id": 1242083330000008, 
-                    "enable": true
-                }, 
-                {
-                    "action_type": "ADD_CUR_MP", 
-                    "args_list": [
-                        {
-                            "arg_type": 100006, 
-                            "args_list": [], 
-                            "sub_type": "ABILITY_OWNER"
-                        }, 
-                        {
-                            "arg_type": 100000, 
-                            "args_list": [
-                                20.0
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 776572930000036, 
                     "enable": true
                 }
             ], 
